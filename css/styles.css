@@ -29,9 +29,13 @@ h1, h2, h3, h4, p, ul, ol {
 }
 .container
 {
-width: 1200px;
-padding-left:200px;
-padding-right: 200px;
+width: 1230px;
+padding-left:15px;
+padding-right: 15px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*head*/
@@ -43,7 +47,7 @@ padding-right: 200px;
     
 }
 .logo {
-    padding-left: 200;
+    padding-left: 15;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -58,6 +62,11 @@ padding-right: 200px;
 }
 
 /*nav*/
+
+.container .nav-countainer{
+    display: flex;
+}
+
 .header {
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -75,7 +84,9 @@ padding-right: 200px;
 }
 
 /*contact*/
-
+.container .contact-countainer{
+    display: flex;
+}
 .contact-link-mailto , .contact-link-tel {
     color: var(--primery-text-color);
 }
@@ -87,7 +98,12 @@ padding-right: 200px;
 }
 
 /*section hero*/
+.hero-countainer{
+    display: inline-block;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
+}
 .hero{
     background-color: var(--primery-background-color);
     color: var(--primery-white-color);
@@ -95,16 +111,20 @@ padding-right: 200px;
 }
 
 .hero-title {
+    height: 120px;
+    background-color: aqua;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    
 }
 
 /*hero-button*/
 
 .hero-button {
+
     font-family: inherit;
     color: var(--primery-white-color);
     background-color: var(--accent-color);
@@ -113,6 +133,10 @@ padding-right: 200px;
     line-height: 1.88;
     cursor: pointer;  
     text-align: center;
+    margin-top: 30px; 
+}
+.container .product-container{
+    
 }
 .hang-text{
     color: var(--primery-text-color)
