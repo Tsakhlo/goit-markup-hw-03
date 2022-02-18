@@ -22,8 +22,11 @@ body {
     text-decoration: none;
 }
 a { text-decoration: none; }
-ul { list-style: none; }
-h1, h2, h3, h4, p, ul, ol {
+ul { list-style: none;
+margin: 0; 
+padding: 0;
+}
+h1, h2, h3, h4, p {
     margin: 0;
     margin-bottom: 0;
 }
@@ -111,8 +114,8 @@ margin-right:auto ;
 }
 
 .hero-title {
-    
-    background-color: aqua;
+    width: 696px;
+    margin: 0 auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -135,10 +138,21 @@ margin-right:auto ;
     text-align: center;
     margin-top: 30px; 
 }
+
+/*    */
 .container .hang-container{
-    display: inline-block;
-    
+
 }
+.product-list{
+   
+     
+}
+
+.container .product-container{
+display: inline-block;
+position: absolute;
+}
+
 .hang-item{ width: 270px;
 
    
