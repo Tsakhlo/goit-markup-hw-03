@@ -11,6 +11,19 @@
     --primery-team-color: #F5F4FA;
     --primery-background-color: #2F303A;
 }
+a { text-decoration: none; }
+ul { list-style: none;
+margin: 0; 
+padding: 0;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+    margin-bottom: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
    /*body*/
 
 body {
@@ -21,20 +34,12 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-a { text-decoration: none; }
-ul { list-style: none;
-margin: 0; 
-padding: 0;
-}
-h1, h2, h3, h4, p {
-    margin: 0;
-    margin-bottom: 0;
-}
+
 .container{
 width: 1230px;
-padding: 0 15px;
-margin-left: auto;
-margin-right:auto ;
+padding-left: 15px;
+padding-right: 15px;
+margin:0 auto;
 }
 .section {
     padding-top: 94px;
@@ -45,12 +50,13 @@ margin-right:auto ;
 /*logo*/
 .header-container {
     display: flex;
-   justify-content: baseline;
-   align-items: baseline;
-    
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px; 
 }
-.logo {
-    padding-left: 15;
+.logo { 
+    margin-right: 93px;
+    min-width: 145px;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -66,19 +72,28 @@ margin-right:auto ;
 
 /*nav*/
 
-.container .nav-countainer{
+.nav-list{
     display: flex;
+    align-items: center;
 }
 
-.header {
+.header {border-bottom: 1px solid rgba(236, 236, 236, 1);
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14;
     font-style: normal;
 }
+.nav-link {
+    display: flex;
+}
+.nav-list .nav-link + .nav-link{
+    margin-left: 50px;
+}
 
 .nav-link-stydio, .nav-link-portfolio, .nav-link-contact {
-    text-align: left;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: var(--primery-title-color);
 }
 .nav-link-stydio:focus, .nav-link-portfolio:focus, .nav-link-contact:focus,
@@ -86,11 +101,24 @@ margin-right:auto ;
     color: var(--accent-color);
 }
 
-/*contact*/
-.container .contact-countainer{
+/*contact*/  
+.contact-countainer{
+    margin-left: auto;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+}
+.contact{
     display: flex;
 }
+.contact .contact-link + .contact-link{
+    margin-left: 50px;
+}
 .contact-link-mailto , .contact-link-tel {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: var(--primery-text-color);
 }
 
@@ -137,6 +165,10 @@ margin-right:auto ;
     cursor: pointer;  
     text-align: center;
     margin-top: 30px; 
+    border: 1px solid transparent;
+    padding: 10px 23px;
+    border-radius: 4px;
+    min-width: 200px;
 }
 
 /*    */
