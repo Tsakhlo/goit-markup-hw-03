@@ -215,6 +215,7 @@ margin:0 auto;
 .team-countainer{
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #ffffff;
 }
 .team {
     background-color: var(--primery-team-color);
