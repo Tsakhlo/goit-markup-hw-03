@@ -62,7 +62,7 @@ margin:0 auto;
 /*logo*/
 .header-container {
     display: flex;
-    align-items: center;
+    
     padding-top: 24px;
     padding-bottom: 25px; 
 }
@@ -132,6 +132,7 @@ margin:0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     color: var(--primery-text-color);
+    padding-right: 15px;
 }
 
 .contact-link-mailto:hover , .contact-link-tel:hover,
