@@ -200,7 +200,10 @@ margin:0 auto;
     margin-bottom: 10x;
 }
 .hang-text{
-    color: var(--primery-text-color)
+    margin-top : 10px;
+    margin-bottom: 10px;
+    color: var(--primery-text-color);
+    line-height: 1.71;
 }
 /*section product*/
 .product-title{
