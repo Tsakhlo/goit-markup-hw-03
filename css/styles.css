@@ -80,6 +80,7 @@ margin-right: auto;
 
 
 .logo { 
+    margin-right: 93px;
    
     min-width: 145px;
     font-family: Raleway;
@@ -97,14 +98,14 @@ margin-right: auto;
 
 /*nav*/
 
-.nav-list{
+.nav-list{ 
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    
 }
 
 
-.nav-link {
+.nav-link { 
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -128,24 +129,21 @@ margin-right: auto;
 
 
 
-.contact{
+.contact{ 
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-.contact .contact-link + .contact-link{
+.contact .contact-link + .contact-link{ 
     margin-left: 50px;
 }
 
 
 .contact-link-mailto , .contact-link-tel {
-    display: inline-block;
     color: var(--primery-text-color);
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
- 
 
 .contact-link-mailto:hover , .contact-link-tel:hover,
 .contact-link-mailto:focus , .contact-link-tel:focus
