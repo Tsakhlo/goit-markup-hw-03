@@ -40,7 +40,8 @@ body {
 width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
-margin: 0px auto;
+margin-left: auto;
+margin-right: auto;
 }
 .section {
     padding-top: 94px;
@@ -218,6 +219,10 @@ margin: 0px auto;
     line-height: 1.71;
 }
 /*section product*/
+.product{
+padding-top: 0;
+}
+
 .product-title{
     margin-bottom: 50px;
 }
@@ -228,12 +233,7 @@ margin: 0px auto;
     margin-left: 30px;
 }
 /*section team*/
-.team-countainer{
-    padding-top: 30px;
-    padding-bottom: 30px;
 
-    background-color: #ffffff;
-}
 .team {
     background-color: var(--primery-team-color);
     line-height: 1.18
@@ -266,6 +266,7 @@ margin: 0px auto;
     
 }
 .teammate-name{
+    margin-top: 10px;
     margin-bottom: 10px;
     
     font-weight: 500;
@@ -273,6 +274,11 @@ margin: 0px auto;
     
 }
 
+.team-container{
+    background-color: var(--primery-white-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
 /*portfolio filter*/
