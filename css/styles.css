@@ -108,8 +108,7 @@ margin-right: auto;
 
 .nav-link { 
     display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
   
 }
 .nav-list .nav-link + .nav-link{
@@ -142,8 +141,7 @@ margin-right: auto;
 
 .contact-link-mailto , .contact-link-tel {
     color: var(--primery-text-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
+
 }
 
 .contact-link-mailto:hover , .contact-link-tel:hover,
